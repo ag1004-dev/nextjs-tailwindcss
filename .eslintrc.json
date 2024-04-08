@@ -1,0 +1,8 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    // To allow import of document in src/app/_document.js
+    "@next/next/no-document-import-in-page": "off",
+    "@next/next/no-page-custom-font": "off"
+  }
+}
